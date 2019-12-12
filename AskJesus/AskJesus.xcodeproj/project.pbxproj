@@ -12,6 +12,8 @@
 		63305DB723A1AB050073C3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63305DB523A1AB050073C3C1 /* Main.storyboard */; };
 		63305DB923A1AB070073C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63305DB823A1AB070073C3C1 /* Assets.xcassets */; };
 		63305DBC23A1AB070073C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63305DBA23A1AB070073C3C1 /* LaunchScreen.storyboard */; };
+		63305DC623A20E540073C3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63305DC523A20E540073C3C1 /* ViewController.swift */; };
+		63305DC823A211070073C3C1 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63305DC723A211070073C3C1 /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		63305DB823A1AB070073C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63305DBB23A1AB070073C3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63305DBD23A1AB070073C3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63305DC523A20E540073C3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63305DC723A211070073C3C1 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				63305DB823A1AB070073C3C1 /* Assets.xcassets */,
 				63305DBA23A1AB070073C3C1 /* LaunchScreen.storyboard */,
 				63305DBD23A1AB070073C3C1 /* Info.plist */,
+				63305DC523A20E540073C3C1 /* ViewController.swift */,
+				63305DC723A211070073C3C1 /* Controller.swift */,
 			);
 			path = AskJesus;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63305DC623A20E540073C3C1 /* ViewController.swift in Sources */,
 				63305DB023A1AB050073C3C1 /* AppDelegate.swift in Sources */,
 				63305DB223A1AB050073C3C1 /* SceneDelegate.swift in Sources */,
+				63305DC823A211070073C3C1 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
